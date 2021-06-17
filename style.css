@@ -85,17 +85,8 @@ body {
     flex-direction: row;
     display: flex;
   }
-  
-
-
-
-
-
-
-
-
-
-
-  @media screen {
-      
+ 
+  .about h1{
+    background-color: black;
+    color: white;
   }
