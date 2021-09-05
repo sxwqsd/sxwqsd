@@ -1,0 +1,116 @@
+
+body {
+    background-image: url('ishan-seefromthesky-eWSh-bkaKU8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+/* Add a black background color to the top navigation */
+
+.name {
+  text-decoration: none;
+  text-align: center;
+  float: right;
+  font-size: 14px;
+  padding: 14px 16px;
+  color: #CFD1D0;
+}
+
+.topnav {
+  background-color: #064044;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #CFD1D0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #06636A;
+  color: #00A6A5;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00A6A5;
+  color: #CFD1D0;
+}
+
+.aboutMe{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutMe h1{
+  text-align: center;
+  color: #001E1F;
+  font-size: 60px;
+}
+
+.about-Me img{
+  width: 10%;
+  height:auto;
+  padding:20px;
+}
+.about-Me{
+  display: flex;
+  width:50%;
+  height: auto;
+  background-color: #CFD1D0;
+  border-color: #001E1F;
+  border-radius: 10px;
+}
+
+.about-Me p{
+  color: #001E1F;
+  font-size: 20px;
+  
+}
+
+.container h2{
+  font-size: xx-large;
+  color:#001E1F;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: inherit;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+.contact{
+  display: flex;
+  justify-content:center;
+  width: inherit;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+.contactImg{
+  display: flex;
+  justify-content:center;
+  width: inherit;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px;
+  align-items: center;
+}
+
+
+
+
+ 
